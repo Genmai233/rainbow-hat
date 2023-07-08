@@ -1,0 +1,235 @@
+2023-06-28 00:02:52.810  INFO 28248 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 28248 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:02:52.817  INFO 28248 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:02:52.902  INFO 28248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 00:02:52.902  INFO 28248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 00:02:54.855  INFO 28248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 00:02:54.868  INFO 28248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 00:02:54.868  INFO 28248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 00:02:54.960  INFO 28248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-28 00:02:54.961  INFO 28248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2058 ms
+2023-06-28 00:02:55.085  INFO 28248 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:02:55.222  INFO 28248 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 00:02:56.197  INFO 28248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-28 00:02:56.254  INFO 28248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-28 00:02:56.270  INFO 28248 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Started RainbowHatApplication in 4.397 seconds (JVM running for 6.833)
+2023-06-28 00:03:04.888  INFO 28248 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 00:03:04.888  INFO 28248 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-28 00:03:04.889  INFO 28248 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-28 00:04:58.442 ERROR 28248 --- [http-nio-8888-exec-8] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:04:58.464  WARN 28248 --- [http-nio-8888-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:05:12.531  INFO 28248 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 00:05:12.536  INFO 28248 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 00:05:24.123  INFO 11684 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 11684 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:05:24.126  INFO 11684 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:05:24.243  INFO 11684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 00:05:24.243  INFO 11684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 00:05:26.129  INFO 11684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 00:05:26.146  INFO 11684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 00:05:26.146  INFO 11684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 00:05:26.270  INFO 11684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-28 00:05:26.271  INFO 11684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2026 ms
+2023-06-28 00:05:26.405  INFO 11684 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:05:26.550  INFO 11684 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 00:05:27.642  INFO 11684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-28 00:05:27.703  INFO 11684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-28 00:05:27.725  INFO 11684 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Started RainbowHatApplication in 5.015 seconds (JVM running for 7.366)
+2023-06-28 00:08:25.269  INFO 11684 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 00:08:25.271  INFO 11684 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-28 00:08:25.276  INFO 11684 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-06-28 00:08:52.356 ERROR 11684 --- [http-nio-8888-exec-2] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:08:52.400  WARN 11684 --- [http-nio-8888-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:09:00.353 ERROR 11684 --- [http-nio-8888-exec-1] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:09:00.355  WARN 11684 --- [http-nio-8888-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:10:00.995  WARN 11684 --- [http-nio-8888-exec-5] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sys, version : 1.2.4, lastPacketReceivedIdleMillis : 60627
+2023-06-28 00:10:17.182 ERROR 11684 --- [http-nio-8888-exec-5] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:10:17.184  WARN 11684 --- [http-nio-8888-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:10:50.350 ERROR 11684 --- [http-nio-8888-exec-4] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:10:50.352  WARN 11684 --- [http-nio-8888-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:10:50.360 ERROR 11684 --- [http-nio-8888-exec-6] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:10:50.362  WARN 11684 --- [http-nio-8888-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:10:50.364 ERROR 11684 --- [http-nio-8888-exec-7] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:10:50.366  WARN 11684 --- [http-nio-8888-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:10:50.368 ERROR 11684 --- [http-nio-8888-exec-8] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:10:50.369  WARN 11684 --- [http-nio-8888-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:11:02.955 ERROR 11684 --- [http-nio-8888-exec-9] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:11:02.957  WARN 11684 --- [http-nio-8888-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:11:09.893 ERROR 11684 --- [http-nio-8888-exec-10] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:11:09.895  WARN 11684 --- [http-nio-8888-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:12:00.545 ERROR 11684 --- [http-nio-8888-exec-2] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:12:00.546  WARN 11684 --- [http-nio-8888-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 00:12:11.740  INFO 11684 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 00:12:11.746  INFO 11684 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 00:12:24.775  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 29864 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:12:24.778  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:12:24.881  INFO 29864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 00:12:24.882  INFO 29864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 00:12:27.034  INFO 29864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 00:12:27.053  INFO 29864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 00:12:27.054  INFO 29864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 00:12:27.184  INFO 29864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-28 00:12:27.184  INFO 29864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2301 ms
+2023-06-28 00:12:27.336  INFO 29864 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:12:27.491  INFO 29864 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 00:12:28.588  INFO 29864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-28 00:12:28.654  INFO 29864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-28 00:12:28.671  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Started RainbowHatApplication in 5.074 seconds (JVM running for 7.257)
+2023-06-28 00:13:12.798  INFO 29864 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 00:13:12.799  INFO 29864 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-28 00:13:12.801  INFO 29864 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-28 00:14:09.584  INFO 29864 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-06-28 00:14:10.402  INFO 29864 --- [Thread-13] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-28 00:14:10.404  INFO 29864 --- [Thread-13] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-28 00:14:10.423  INFO 29864 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 00:14:10.429  INFO 29864 --- [Thread-13] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 00:14:10.691  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 29864 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:14:10.692  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:14:11.218  INFO 29864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 00:14:11.218  INFO 29864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 00:14:11.219  INFO 29864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 00:14:11.259  INFO 29864 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-28 00:14:11.259  INFO 29864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 561 ms
+2023-06-28 00:14:11.286  WARN 29864 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountController' defined in file [D:\彩虹帽\bingo\rainbowHat\target\classes\com\hu\rainbowhat\controller\AccountController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.hu.rainbowhat.controller.AccountController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42485127]
+2023-06-28 00:14:11.286  INFO 29864 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-28 00:14:11.305  INFO 29864 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-28 00:14:11.365 ERROR 29864 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'accountController' defined in file [D:\彩虹帽\bingo\rainbowHat\target\classes\com\hu\rainbowhat\controller\AccountController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.hu.rainbowhat.controller.AccountController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42485127]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.11.jar:2.7.11]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) [spring-boot-2.7.11.jar:2.7.11]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.11.jar:2.7.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-2.7.11.jar:2.7.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) [spring-boot-2.7.11.jar:2.7.11]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) [spring-boot-2.7.11.jar:2.7.11]
+	at com.hu.rainbowhat.RainbowHatApplication.main(RainbowHatApplication.java:12) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_342]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_342]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_342]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_342]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.7.11.jar:2.7.11]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.hu.rainbowhat.controller.AccountController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42485127]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675) ~[spring-core-5.3.27.jar:5.3.27]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.27.jar:5.3.27]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.27.jar:5.3.27]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/hu/rainbowhat/service/WorkerService;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_342]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2611) ~[na:1.8.0_342]
+	at java.lang.Class.getDeclaredFields(Class.java:1944) ~[na:1.8.0_342]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738) ~[spring-core-5.3.27.jar:5.3.27]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.hu.rainbowhat.service.WorkerService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[na:1.8.0_342]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_342]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[na:1.8.0_342]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_342]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_342]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_342]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.11.jar:2.7.11]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_342]
+	... 30 common frames omitted
+
+2023-06-28 00:14:16.991  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 29864 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:14:16.995  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:14:17.831  INFO 29864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 00:14:17.834  INFO 29864 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 00:14:17.834  INFO 29864 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 00:14:17.876  INFO 29864 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-06-28 00:14:17.878  INFO 29864 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 873 ms
+2023-06-28 00:14:17.927  INFO 29864 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:14:17.961  INFO 29864 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2023-06-28 00:14:18.382  INFO 29864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-28 00:14:18.416  INFO 29864 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-28 00:14:18.426  INFO 29864 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Started RainbowHatApplication in 1.504 seconds (JVM running for 117.012)
+2023-06-28 00:14:18.430  INFO 29864 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-28 00:14:20.652  INFO 29012 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Starting GenerateApplicationTests using Java 1.8.0_342 on Genmai with PID 29012 (started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:14:20.656  INFO 29012 --- [main] c.h.rainbowhat.GenerateApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:14:23.168  INFO 29012 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:14:23.775  INFO 29012 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 00:14:27.338  INFO 29012 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Started GenerateApplicationTests in 7.877 seconds (JVM running for 10.581)
+2023-06-28 00:14:28.358  INFO 29012 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 00:14:28.362  INFO 29012 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 00:15:45.972  INFO 29992 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Starting GenerateApplicationTests using Java 1.8.0_342 on Genmai with PID 29992 (started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:15:45.976  INFO 29992 --- [main] c.h.rainbowhat.GenerateApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:15:48.329  INFO 29992 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:15:48.849  INFO 29992 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 00:15:54.600  INFO 29992 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Started GenerateApplicationTests in 10.034 seconds (JVM running for 13.285)
+2023-06-28 00:15:55.732  INFO 29992 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 00:15:55.744  INFO 29992 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 00:16:04.436  INFO 29864 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closing ...
+2023-06-28 00:16:04.440  INFO 29864 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2023-06-28 00:17:13.606  INFO 11744 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 11744 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 00:17:13.609  INFO 11744 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 00:17:13.736  INFO 11744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 00:17:13.738  INFO 11744 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 00:17:15.653  INFO 11744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 00:17:15.665  INFO 11744 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 00:17:15.666  INFO 11744 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 00:17:15.776  INFO 11744 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-28 00:17:15.776  INFO 11744 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2036 ms
+2023-06-28 00:17:15.923  INFO 11744 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 00:17:16.076  INFO 11744 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 00:17:17.122  INFO 11744 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-28 00:17:17.186  INFO 11744 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-28 00:17:17.201  INFO 11744 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Started RainbowHatApplication in 4.56 seconds (JVM running for 6.91)
+2023-06-28 00:17:23.140  INFO 11744 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 00:17:23.141  INFO 11744 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-28 00:17:23.143  INFO 11744 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-28 00:17:36.495 ERROR 11744 --- [http-nio-8888-exec-9] c.h.r.exception.GlobalExceptionHandler   : 异常信息
+2023-06-28 00:17:36.507  WARN 11744 --- [http-nio-8888-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.hu.rainbowhat.exception.CustomException]
+2023-06-28 02:48:09.527  INFO 11744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 02:48:09.535  INFO 11744 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 02:48:34.790  INFO 3076 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Starting GenerateApplicationTests using Java 1.8.0_342 on Genmai with PID 3076 (started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 02:48:34.794  INFO 3076 --- [main] c.h.rainbowhat.GenerateApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 02:48:36.508  INFO 3076 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 02:48:36.887  INFO 3076 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 02:48:39.516  INFO 3076 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Started GenerateApplicationTests in 5.627 seconds (JVM running for 7.84)
+2023-06-28 02:48:41.685  INFO 3076 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 02:48:41.687  INFO 3076 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 02:49:23.566  INFO 21224 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Starting GenerateApplicationTests using Java 1.8.0_342 on Genmai with PID 21224 (started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 02:49:23.568  INFO 21224 --- [main] c.h.rainbowhat.GenerateApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 02:49:25.398  INFO 21224 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 02:49:25.866  INFO 21224 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 02:49:28.272  INFO 21224 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Started GenerateApplicationTests in 5.48 seconds (JVM running for 7.469)
+2023-06-28 02:49:30.210  INFO 21224 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 02:49:30.212  INFO 21224 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 02:49:49.233  INFO 27476 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Starting RainbowHatApplication using Java 1.8.0_342 on Genmai with PID 27476 (D:\彩虹帽\bingo\rainbowHat\target\classes started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 02:49:49.234  INFO 27476 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 02:49:49.305  INFO 27476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-28 02:49:49.305  INFO 27476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-28 02:49:50.661  INFO 27476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2023-06-28 02:49:50.672  INFO 27476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-28 02:49:50.673  INFO 27476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-06-28 02:49:50.755  INFO 27476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-28 02:49:50.756  INFO 27476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1449 ms
+2023-06-28 02:49:50.837  INFO 27476 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 02:49:50.951  INFO 27476 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 02:49:51.710  INFO 27476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-28 02:49:51.751  INFO 27476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-28 02:49:51.763  INFO 27476 --- [restartedMain] com.hu.rainbowhat.RainbowHatApplication  : Started RainbowHatApplication in 3.306 seconds (JVM running for 5.176)
+2023-06-28 02:49:56.851  INFO 27476 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-28 02:49:56.853  INFO 27476 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-28 02:49:56.856  INFO 27476 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-06-28 04:15:33.115  INFO 27476 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 04:15:33.118  INFO 27476 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-28 04:15:50.863  INFO 26644 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Starting GenerateApplicationTests using Java 1.8.0_342 on Genmai with PID 26644 (started by Administrator in D:\彩虹帽\bingo\rainbowHat)
+2023-06-28 04:15:50.866  INFO 26644 --- [main] c.h.rainbowhat.GenerateApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-06-28 04:15:52.740  INFO 26644 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-28 04:15:53.089  INFO 26644 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-28 04:15:55.752  INFO 26644 --- [main] c.h.rainbowhat.GenerateApplicationTests  : Started GenerateApplicationTests in 5.718 seconds (JVM running for 8.002)
+2023-06-28 04:15:58.076  INFO 26644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2023-06-28 04:15:58.079  INFO 26644 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
